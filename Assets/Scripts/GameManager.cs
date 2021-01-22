@@ -241,6 +241,7 @@ public class GameManager : MonoSingleton<GameManager>
 
     public void SaveHiScore()
     {
+        if (Scores > HighScores)
         PlayerPrefs.SetInt("HighScores", Scores);
     }
 

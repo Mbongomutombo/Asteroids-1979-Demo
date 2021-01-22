@@ -8,8 +8,7 @@ public class PlayerController : MonoBehaviour, IDamageable
 
     public float rotationSpeed;
     public float movementSpeed;
-    [Header("Bullet prefab")]
-    public GameObject bullet;
+   
     
     [Space]
     [Tooltip("Weapon cooldown")]
